@@ -1,0 +1,383 @@
+{
+  "entities": {
+    "player": {
+      "canvas": {
+        "width": 32,
+        "height": 32
+      },
+      "animations": {
+        "idle": {
+          "fps": 2,
+          "frames": [
+            {
+              "parts": [
+                {
+                  "sprite": "legsIdle",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 20,
+                  "y": 25
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 17
+                },
+                {
+                  "sprite": "hand",
+                  "x": 8,
+                  "y": 25
+                },
+                {
+                  "sprite": "head",
+                  "x": 8,
+                  "y": 9
+                }
+              ]
+            },
+            {
+              "parts": [
+                {
+                  "sprite": "legsIdle",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 21,
+                  "y": 25
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 17
+                },
+                {
+                  "sprite": "hand",
+                  "x": 7,
+                  "y": 25
+                },
+                {
+                  "sprite": "head",
+                  "x": 8,
+                  "y": 10
+                }
+              ]
+            }
+          ]
+        },
+        "walk": {
+          "fps": 8,
+          "frames": [
+            {
+              "parts": [
+                {
+                  "sprite": "hand",
+                  "x": 23,
+                  "y": 24
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "legsWalk1",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 6,
+                  "y": 24
+                },
+                {
+                  "sprite": "head",
+                  "x": 9,
+                  "y": 9
+                }
+              ]
+            },
+            {
+              "parts": [
+                {
+                  "sprite": "legsIdle",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 21,
+                  "y": 25
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 17
+                },
+                {
+                  "sprite": "hand",
+                  "x": 7,
+                  "y": 25
+                },
+                {
+                  "sprite": "head",
+                  "x": 8,
+                  "y": 10
+                }
+              ]
+            },
+            {
+              "parts": [
+                {
+                  "sprite": "hand",
+                  "x": 22,
+                  "y": 22
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 15
+                },
+                {
+                  "sprite": "legsWalk2",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 5,
+                  "y": 22
+                },
+                {
+                  "sprite": "head",
+                  "x": 8,
+                  "y": 6
+                }
+              ]
+            },
+            {
+              "parts": [
+                {
+                  "sprite": "legsIdle",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 21,
+                  "y": 25
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 17
+                },
+                {
+                  "sprite": "hand",
+                  "x": 7,
+                  "y": 25
+                },
+                {
+                  "sprite": "head",
+                  "x": 8,
+                  "y": 10
+                }
+              ]
+            }
+          ]
+        },
+        "jump": {
+          "fps": 4,
+          "frames": [
+            {
+              "parts": [
+                {
+                  "sprite": "legsJump",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 5,
+                  "y": 24
+                },
+                {
+                  "sprite": "hand",
+                  "x": 23,
+                  "y": 19
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "head",
+                  "x": 8,
+                  "y": 9
+                }
+              ]
+            },
+            {
+              "parts": [
+                {
+                  "sprite": "legsJump",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "hand",
+                  "x": 6,
+                  "y": 24
+                },
+                {
+                  "sprite": "hand",
+                  "x": 23,
+                  "y": 20
+                },
+                {
+                  "sprite": "body",
+                  "x": 8,
+                  "y": 16
+                },
+                {
+                  "sprite": "head",
+                  "x": 8,
+                  "y": 9
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "zombie": {
+        "canvas": {
+          "width": 32,
+          "height": 32
+        },
+        "animations": {
+          "idle": {
+            "fps": 2,
+            "frames": [
+              {
+                "parts": [
+                  { "sprite": "legsIdle", "x": 8, "y": 16 },
+                  { "sprite": "hand", "x": 5, "y": 24 },
+                  { "sprite": "hand", "x": 23, "y": 24 },
+                  { "sprite": "body", "x": 8, "y": 16 },
+                  { "sprite": "head", "x": 8, "y": 8 }
+                ]
+              },
+              {
+                "parts": [
+                  { "sprite": "legsIdle", "x": 8, "y": 16 },
+                  { "sprite": "hand", "x": 5, "y": 25 },
+                  { "sprite": "hand", "x": 23, "y": 25 },
+                  { "sprite": "body", "x": 8, "y": 17 },
+                  { "sprite": "head", "x": 8, "y": 9 }
+                ]
+              }
+            ]
+          },
+          "walk": {
+            "fps": 5,
+            "frames": [
+              {
+                "parts": [
+                  { "sprite": "legsWalk1", "x": 8, "y": 16 },
+                  { "sprite": "hand", "x": 5, "y": 24 },
+                  { "sprite": "hand", "x": 23, "y": 22 },
+                  { "sprite": "body", "x": 8, "y": 16 },
+                  { "sprite": "head", "x": 8, "y": 8 }
+                ]
+              },
+              {
+                "parts": [
+                  { "sprite": "legsWalk2", "x": 8, "y": 16 },
+                  { "sprite": "hand", "x": 5, "y": 22 },
+                  { "sprite": "hand", "x": 23, "y": 24 },
+                  { "sprite": "body", "x": 8, "y": 16 },
+                  { "sprite": "head", "x": 8, "y": 8 }
+                ]
+              }
+            ]
+          },
+          "jump": {
+            "fps": 3,
+            "frames": [
+              {
+                "parts": [
+                  { "sprite": "legsJump", "x": 8, "y": 16 },
+                  { "sprite": "hand", "x": 5, "y": 19 },
+                  { "sprite": "hand", "x": 23, "y": 19 },
+                  { "sprite": "body", "x": 8, "y": 16 },
+                  { "sprite": "head", "x": 8, "y": 8 }
+                ]
+              },
+              {
+                "parts": [
+                  { "sprite": "legsJump", "x": 8, "y": 16 },
+                  { "sprite": "hand", "x": 5, "y": 20 },
+                  { "sprite": "hand", "x": 23, "y": 20 },
+                  { "sprite": "body", "x": 8, "y": 17 },
+                  { "sprite": "head", "x": 8, "y": 9 }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "creeper": {
+          "canvas": {
+            "width": 32,
+            "height": 32
+          },
+          "animations": {
+            "idle": {
+              "fps": 2,
+              "frames": [
+                {
+                  "parts": [
+                    { "sprite": "legsIdle", "x": 8, "y": 16 },
+                    { "sprite": "head", "x": 8, "y": 12 }
+                  ]
+                }
+              ]
+            },
+            "walk": {
+              "fps": 6,
+              "frames": [
+                {
+                  "parts": [
+                    { "sprite": "legsWalk1", "x": 8, "y": 16 },
+                    { "sprite": "head", "x": 8, "y": 12 }
+                  ]
+                },
+                {
+                  "parts": [
+                    { "sprite": "legsIdle", "x": 8, "y": 16 },
+                    { "sprite": "head", "x": 8, "y": 12 }
+                  ]
+                }
+              ]
+            },
+            "jump": {
+              "fps": 3,
+              "frames": [
+                {
+                  "parts": [
+                    { "sprite": "legsWalk1", "x": 8, "y": 16 },
+                    { "sprite": "head", "x": 8, "y": 12 }
+                  ]
+                }
+              ]
+            }
+          }
+      }
+    }
+  }
